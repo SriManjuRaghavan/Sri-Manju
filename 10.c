@@ -15,5 +15,5 @@ void main()
     print("the sum of number is %d",count);
     }
     else
-        printf("the entered number is invalid option")
+        printf("the entered number is invalid option");
 }
