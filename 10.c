@@ -4,10 +4,16 @@ void main()
 {
     int number,count=0
     scanf("%d",&number);
+    if(number>0)
+    {
     while(number!=0)
     {
         remainder=number%10;
         number=number/10;
         count++;
     }
-    print("the sum of number is %d",count);}
+    print("the sum of number is %d",count);
+    }
+    else
+        printf("the entered number is invalid option")
+}
