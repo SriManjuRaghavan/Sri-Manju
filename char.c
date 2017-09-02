@@ -8,5 +8,5 @@ void main()
         printf("it is a alphabets")
     }
     else
-        printf("invalid");
+        printf("no it is not an alphabet");
 }
