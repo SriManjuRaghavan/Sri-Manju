@@ -6,14 +6,14 @@ void main()
     if(a==0)
     {
 
-        printf("zero");
+        printf("the entered number is zero");
     }
     else if(a>0)
     {
-        printf("positive");
+        printf("the entered number is positive");
     }
     else
     {
-        printf("negative");
+        printf("the entered number is negative");
     }
 }
