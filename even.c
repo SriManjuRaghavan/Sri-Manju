@@ -8,6 +8,8 @@ void main()
        
        printf("even");
    }
-   else
+   elseif(a%3==0)
     printf("odd");
+ else
+     printf("invalid");
 }
