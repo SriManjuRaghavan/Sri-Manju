@@ -12,7 +12,7 @@ void main()
         number=number/10;
         count++;
     }
-    print("the sum of number is %d",count);
+    print("the number of integers in the number is %d",count);
     }
     else
         printf("the entered number is invalid option");
