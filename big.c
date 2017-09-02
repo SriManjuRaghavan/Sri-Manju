@@ -3,6 +3,8 @@ void main()
 
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
+    if(a>0&&b>0&&c>0)
+    {
     if(a>b&&a>c)
     {
         printf("first number is greater");
@@ -10,7 +12,7 @@ void main()
     else if(b>a&&b>c)
         printf("second number is greater");
     elseif(c>a&&c>b)
-        printf("third number is greater");
+        printf("third number is greater");}
 else
 printf("invalid option you have entered");
 }
