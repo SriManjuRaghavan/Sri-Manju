@@ -1,15 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{ int a;
-    scanf("%d",&a);
-   if(a%2==0)
+{ int number;
+    scanf("%d",&number);
+ if(number>0)
+ {
+   if(number%2==0)
    {
        
-       printf("even");
+       printf("the entered number is an even");
    }
-   elseif(a%3==0)
-    printf("odd");
+   else
+    printf("the entered number is a odd");
+ }
  else
-     printf("invalid");
+     printf("the entered option is  an invalid option");
 }
