@@ -3,7 +3,7 @@
 void main()
 {
     int number,new_number=0,remainder;
-    scanf("%d%d",&number);
+    scanf("%d",&number);
      if(number>=0&&number>=9)
      {
          printf("the given number is palindrome");
