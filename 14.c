@@ -9,7 +9,7 @@ void main()
          for(i=number1;i<number2;i++)
         if(i%3==0)
          {
-             printf("%d",i)
+             printf("%d",i);
          }
          
      }
