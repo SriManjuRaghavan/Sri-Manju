@@ -10,7 +10,7 @@ void main()
    }
    elseif(year%4!=0)
    {
-       printf("the enter year is not leap year");
+       printf("the entered year is not leap year");
    }
    else
     printf("the entered option is invalid");
