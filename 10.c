@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-    int number,count=0
+    int number,count=0;
     scanf("%d",&number);
     if(number>0)
     {
