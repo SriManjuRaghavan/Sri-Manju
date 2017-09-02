@@ -3,7 +3,7 @@
 void main()
 {
     int number,count=0,i;
-    scanf("%d%d",&number);
+    scanf("%d",&number);
      if(number>0)
      {
          for(i=1;i<=9;i++)
