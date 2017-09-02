@@ -5,8 +5,8 @@ void main()
     scanf("%c",&a);
     if((a>=65&&a<=90)||(a>=97&&a<=122))
     {
-        printf("it is a alphabets")
+        printf("the entered chararter is a alphabet");
     }
     else
-        printf("no it is not an alphabet");
+        printf("the entered chararter is not an alphabet");
 }
