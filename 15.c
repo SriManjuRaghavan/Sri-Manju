@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-    int number1,number2i;
+    int number1,number2,i;
     scanf("%d%d",&number1,number2);
      if(number1>0&&number2>0)
      {
